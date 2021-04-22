@@ -18,6 +18,7 @@
 - [React](https://reactjs.org)
 - [Sass](https://sass-lang.com/)
 - [React Testing Library](https://testing-library.com/)
+- [React Easy Crop](https://ricardo-ch.github.io/react-easy-crop/)
 
 ## Getting Started
 
