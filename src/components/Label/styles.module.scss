@@ -1,0 +1,13 @@
+.label {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--text);
+  gap: 0.2rem;
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+}

@@ -1,0 +1,27 @@
+.sliderContainer {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+
+  p {
+    margin-left: -0.4rem;
+    color: var(--text);
+  }
+
+  button {
+    background: var(--blue);
+    color: #fff;
+    border-radius: 5rem;
+    border: 0;
+    font-size: 1rem;
+
+    align-self: flex-end;
+
+    cursor: pointer;
+
+    width: 8rem;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+  }
+}
