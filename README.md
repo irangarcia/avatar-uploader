@@ -8,14 +8,19 @@
   A React component to upload and crop avatars.
 </p>
 
----
+<hr>
 
+<p align="center">
+  <a href="#technologies">Technologies</a> ·
+  <a href="#getting-started">Getting Started</a> ·
+  <a href="#demo">Demo</a> ·
+</p>
 <br/>
 
 ## Technologies
 
-- [TypeScript](https://typescriptlang.org)
 - [React](https://reactjs.org)
+- [TypeScript](https://typescriptlang.org)
 - [Sass](https://sass-lang.com/)
 - [React Testing Library](https://testing-library.com/)
 - [React Easy Crop](https://ricardo-ch.github.io/react-easy-crop/)
@@ -41,6 +46,8 @@ $ yarn test
 # The server will initialize in the <http://localhost:3000>
 ```
 
-## 🖼 Demo
+## Demo
 
-![Demo Gif](.github/demo.gif)
+<p align="center">
+  <img src="./.github/demo.gif">
+</p>
