@@ -6,14 +6,14 @@ export function HiddenInput() {
   const { handleFileChange } = useAvatarUpload();
 
   return (
-    <>
-      <input
-        accept="image/*"
-        className={styles.input}
-        id="inputUpload"
-        onChange={handleFileChange}
-        type="file"
-      />
-    </>
+    <input
+      accept="image/*"
+      aria-label="input-upload"
+      className={styles.input}
+      id="inputUpload"
+      placeholder="Upload your file here"
+      onChange={handleFileChange}
+      type="file"
+    />
   );
 }

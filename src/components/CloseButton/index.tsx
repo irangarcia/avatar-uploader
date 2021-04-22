@@ -3,11 +3,16 @@ import { useAvatarUpload } from '../../hooks/useAvatarUpload';
 
 import styles from './styles.module.scss';
 
-export function CloseButton() {
+export function CloseButton({ ...otherProps }) {
   const { handleCancelUpload } = useAvatarUpload();
 
   return (
-    <button className={styles.closeButton} onClick={handleCancelUpload}>
+    <button
+      className={styles.closeButton}
+      onClick={handleCancelUpload}
+      data-testid="close-button"
+      {...otherProps}
+    >
       <BsX size="2em" />
     </button>
   );

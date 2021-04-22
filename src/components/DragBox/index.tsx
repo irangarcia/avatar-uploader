@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { useAvatarUpload } from '../../hooks/useAvatarUpload';
 
 import styles from './styles.module.scss';
@@ -15,6 +15,7 @@ export function DragBox({ children }: DragBoxProps) {
   return (
     <div className={styles.mainContainer}>
       <div
+        data-testid="drag-box-container"
         className={styles.boxContainer}
         style={{ border: !final && !initial ? 'none' : '' }}
       >

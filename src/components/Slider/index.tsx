@@ -5,10 +5,12 @@ import { useAvatarUpload } from '../../hooks/useAvatarUpload';
 
 export function Slider() {
   const { zoom, setZoom, handleSave } = useAvatarUpload();
+
   return (
     <div className={styles.sliderContainer}>
       <p>Crop</p>
       <SliderMaterial
+        data-testid="slider"
         value={zoom}
         min={1}
         max={3}

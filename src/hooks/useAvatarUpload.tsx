@@ -36,7 +36,6 @@ export const AvatarProvider = ({ children }: AvatarProviderProps) => {
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
       const file = e.target.files[0];
-      console.log(file);
       if (!acceptedTypes.includes(file.type)) {
         setImageSrc(undefined);
         setStatus({ initial: false, final: false, error: true });

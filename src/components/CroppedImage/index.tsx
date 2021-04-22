@@ -10,7 +10,7 @@ export function CroppedImage() {
   const { imageSrc, zoom, setZoom } = useAvatarUpload();
 
   return (
-    <div className={styles.imageContainer}>
+    <div className={styles.imageContainer} data-testid="cropped-image">
       <Cropper
         image={imageSrc}
         crop={crop}
