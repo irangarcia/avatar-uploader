@@ -41,3 +41,5 @@ $ yarn test
 ```
 
 ## 🖼 Demo
+
+![Demo Gif](.github/demo.gif)
