@@ -13,8 +13,9 @@
 <p align="center">
   <a href="#technologies">Technologies</a> ·
   <a href="#getting-started">Getting Started</a> ·
-  <a href="#demo">Demo</a> ·
+  <a href="#demo">Demo</a>
 </p>
+
 <br/>
 
 ## Technologies
